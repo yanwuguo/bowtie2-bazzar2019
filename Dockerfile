@@ -1,4 +1,5 @@
 FROM ubuntu:14.04 
+MAINTAINER guo@yanwu.me
 RUN apt-get update -qq --fix-missing; \ 
 	apt-get install -qq -y wget unzip; 
 RUN wget -q -O bowtie2.zip http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.4/bowtie2-2.2.4-linux-x86_64.zip/download; \ 
